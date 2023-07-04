@@ -97,7 +97,7 @@ const ProfileCard: FC = () => {
       </span>
       <div className="p-3 px-5 w-full text-3xl font-bold text-gray-900 break-all">
         {mode == "view" ? (
-          data.name
+          <span className="text-5xl">{data.name}</span>
         ) : (
           <input
             ref={refs.name}
