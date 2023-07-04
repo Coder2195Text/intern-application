@@ -143,6 +143,7 @@ const ProfileCard: FC = () => {
                 email: undefined,
               }));
             }}
+            placeholder="Email"
             className="px-4 text-3xl font-bold text-gray-900 rounded-xl"
             defaultValue={data.email}
           />
